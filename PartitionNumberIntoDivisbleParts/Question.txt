@@ -1,0 +1,17 @@
+Partition a number into two divisble parts
+Given a number (as string) and two integers a and b, divide the string in two non-empty parts such that the first part is divisible by a and second part is divisible by b. If string can not be divided into two non-empty parts, output “NO”, else print “YES” with the two parts.
+
+Examples:
+
+Input  : str = "123", a = 12, b = 3
+Output : YES
+         12, 3
+"12" is divisible by a and "3" is 
+divisible by b. 
+
+Input  : str = "1200", a = 4, b = 3
+Output : YES
+         12, 00
+
+Input  : str = "125", a = 12, b = 3
+Output : NO
